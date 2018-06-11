@@ -1,0 +1,102 @@
+
+#username{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.commentAuthor {
+    text-transform: capitalize;
+    font-weight: bold; 
+}
+
+#submittedBy{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.deleteForm{
+    display: inline;
+}
+
+.active {
+    font-weight: bold;
+}
+
+body{
+    background-color: #f8f9fa;
+}
+
+/*h5 { font-size: 1rem; }*/
+
+/*@media (min-width: 576px) {*/
+/*    h5 { font-size: 1rem; }*/
+/*}*/
+/*@media (min-width: 768px) {*/
+/*    h5 { font-size: 0.8rem; }*/
+/*}*/
+/*@media (min-width: 992px) {*/
+/*    h5 { font-size: 1rem; }*/
+/*}*/
+/*@media (min-width: 1200px) {*/
+/*    h5 { font-size: 1rem; }*/
+/*}*/
+/*====================================================*/
+/*h5 {*/
+/*  font-size: 1rem;*/
+/*}*/
+/*@include media-breakpoint-up(sm) {*/
+/*  h5 {*/
+/*    font-size: 2rem;*/
+/*  }*/
+/*}*/
+/*@include media-breakpoint-up(md) {*/
+/*  h5 {*/
+/*    font-size: .5rem;*/
+/*  }*/
+/*}*/
+/*@include media-breakpoint-up(lg) {*/
+/*  h5 {*/
+/*    font-size: 1rem;*/
+/*  }*/
+/*}*/
+
+.box-shadow {box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);}
+
+.col-md-4 .card:hover  {
+box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .2);
+    
+}
+
+.object-fit_fill { object-fit: fill }
+.object-fit_contain { object-fit: contain }
+.object-fit_cover { object-fit: cover }
+.object-fit_none { object-fit: none }
+.object-fit_scale-down { object-fit: scale-down }
+
+
+.camp-img { max-height: 500px; background-color: #444;}
+
+
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+  grid-auto-rows: 20px;
+}
+
+/*#search-bar{*/
+/*    height: inherit;*/
+    /*padding-left: 4rem;*/
+/*    width: calc(100% - 4rem);*/
+/*    border: 0;*/
+/*    -webkit-box-shadow: none;*/
+/*    box-shadow: none;*/
+/*}*/

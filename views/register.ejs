@@ -1,0 +1,44 @@
+<% include ./partials/header %>
+
+<form class="form-signin text-center" action="/register" method="post">
+      <div style="font-size:6em; color:#999999">
+         <i class="fas fa-user-plus"></i>
+      </div>
+      <h1 class="h3 mb-3 font-weight-normal">Please sign up</h1>
+
+      <label for="inputName" class="sr-only">Username</label>
+      <input type="text" id="inputName" name="username" class="form-control" placeholder="Username" required autofocus>
+      
+      <label for="inputName" class="sr-only">Firstname</label>
+      <input type="text"  name="firstname" class="form-control" placeholder="Firstname" required>
+      
+      <label for="inputName" class="sr-only">Lastname</label>
+      <input type="text" name="lastname" class="form-control" placeholder="Lastname" required>
+      
+      <label for="inputName" class="sr-only">Profile Image</label>
+      <input type="text" name="avatar" class="form-control" placeholder="Profile Image URL" required>
+
+      <label for="inputName" class="sr-only">Email</label>
+      <input type="email" name="email" class="form-control" placeholder="john@doe.com" required>      
+      
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
+      
+      <label for="adminCode" class="sr-only">adminCode</label>
+      <input id="adminCode" class="form-control" type="text" name="adminCode" placeholder="admin code">
+
+
+      <!--<div class="checkbox mb-3">-->
+      <!--  <label>-->
+      <!--    <input type="checkbox" value="remember-me"> Remember me-->
+      <!--  </label>-->
+      <!--</div>-->
+ 
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+
+      <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+      <a href="/campgrounds">Go Back</a>
+    </form>
+
+
+<% include ./partials/footer %>
